@@ -3,78 +3,45 @@
     <head>
         <meta name="viewport" content="width=device-width, inicial-scale=1.0">
         <title>Search</title>
-        <style>
-            .center {
-                display: block;
-                margin-left: auto;
-                margin-right: auto;
-                width: 50%;
-            }
-
-            #container {
-                display: flex;
-                flex-wrap: wrap;
-            }
-
-            #container > div {
-                font-size: 15px;
-                margin: 30px;
-                padding: 10px;
-            }
-
-            form > h1 {
-                text-align: center;
-                padding: 0px;
-                font-size: small;
-                text-align: start;
-            }
-
-        </style>
+        <link rel="stylesheet" href="format.css">
     </head>
     <body>
-        <div id="container" class="center">
+        <div id="container">
             <div>
-                <a href="image.html">
-                    Images
-                </a>
-            </div>
-            <div>
-                <a href="advanced.html">
-                    Advanced
-                </a>
-            </div>
-            <div>
-                <a href="index.html">
-                    Main
-                </a>
+                <button>
+                    <a href="index.html"> Google Search </a>
+                </button>
             </div>
         </div>
-        <div>
+
+        <div id="image">
             <img src="google_PNG19626.png" class="center">
         </div>
-        <form action="https://www.google.com/advanced_search" class="center">
-            <h1>All of this words:</h1>
-            <input type="text" name="q">
-            <input type="submit" value="Search">
-        </form>
-        
-        <form action="https://www.google.com/advanced_search" class="center">
-            <h1>This exact word or phrase:<h1>
-            <input type="text" name="q">
-            <input type="submit" value="Search">
-        </form>
-        
-        <form action="https://www.google.com/advanced_search" >
-            <h1>any of this words:<h1>
-            <input type="text" name="q">
-            <input type="submit" value="Search">
-        </form>
-        
-        <form action="https://www.google.com/advanced_search">
-            <h1>none of this words:<h1>
-            <input type="text" name="q">
-            <input type="submit" value="Search">
-        </form>
+
+        <div id="searchboxes" class="center">
+            <form action="https://www.google.com/advanced_search">
+                All of this words:
+                <input type="text" name="q">
+                <input type="submit" value="Search">
+            </form>
+            <form action="https://www.google.com/advanced_search">
+                This exact word or phrase:
+                <input type="text" name="q">
+                <input type="submit" value="Search">
+            </form>
+            <form action="https://www.google.com/advanced_search" >
+                Any of this words:
+                <input type="text" name="q">
+                <input type="submit" value="Search">
+            </form>
+            
+            <form action="https://www.google.com/advanced_search">
+                None of this words:
+                <input type="text" name="q">
+                <input type="submit" value="Search">
+            </form> 
+            
+        </div>
         <br></br>
     </body>
 </html>
