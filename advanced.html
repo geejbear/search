@@ -18,28 +18,31 @@
             <img src="google_PNG19626.png" class="center">
         </div>
 
-        <div id="searchboxes" class="center">
-            <form action="https://www.google.com/advanced_search">
-                All of this words:
-                <input type="text" name="q">
-                <input type="submit" value="Search">
+
+        <div id="searchboxes">
+            <h1>All of this words:</h1>
+            <form class="center">
+                <input id="1" value="" name="as_q" type="text">
             </form>
-            <form action="https://www.google.com/advanced_search">
-                This exact word or phrase:
-                <input type="text" name="q">
-                <input type="submit" value="Search">
-            </form>
-            <form action="https://www.google.com/advanced_search" >
-                Any of this words:
-                <input type="text" name="q">
-                <input type="submit" value="Search">
+
+            <h1>exact word or phrase:</h1>
+            <form class="center">
+                <input id="2" value="" name="as_epq" type="text">
             </form>
             
-            <form action="https://www.google.com/advanced_search">
-                None of this words:
-                <input type="text" name="q">
-                <input type="submit" value="Search">
+            <h1>any of this words:</h1> 
+            <form class="center">
+                <input id="3" value="" name="as_oq" type="text" >
+            </form>
+            <h1>None of this words:</h1> 
+            <form class="center">
+                <input id="4" value="" name="as_eq" type="text">
             </form> 
+            <br></br>
+            <form action="https://www.google.com/search" class="center">
+                <input type="hidden" value="" >
+                <input type="submit" value="Search">
+            </form>
             
         </div>
         <br></br>

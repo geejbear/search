@@ -21,17 +21,43 @@
     height: 50px;
 }
 
-#searchboxes >  div {
+#searchboxes > h1 {
+    font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
     margin: 0px;
     padding: 10px;
-
-}
-
-form {
     text-align: center;
+    font-style: italic;
+
 }
+
+button {
+    background-color: white;
+    width: 100px;
+    height: 40px;
+    border-color: white;
+    border-style: none;
+}
+
+button > a {
+    color: black;
+    font-size: medium;
+}
+
+button:hover {
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+
+input[type=text] {
+    width: 300px;
+    height: 40px;
+    border-color: white;
+    border-style: groove;
+    border-radius: 25px;
+}
+
 
 a {
     text-decoration: none;
